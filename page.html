@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang='en'>
+<title>Page2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #0a4a3d;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: rgba(170, 170, 170, 0);
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<!-- Header -->
+<div class="header">
+  <h1>Xingjian(Echo) Wang</h1>
+  <p>Personal Website</p>
+</div>
+
+<!-- Nav -->
+<div class="navbar">
+  <a href="index.html">HOME</a>
+  <a href="page.html">PORTFOLIO</a>
+ 
+</div>
+
+<!-- Flex & Grid -->
+<div class="row">
+  
+  <div class="main">
+    <h2>INTER-HE 940 Capstone I</h2>
+    <h4>A Good Story For Future</h4>
+    <div class="fakeimg" style="height:425px;">
+      <table>
+        <tr>
+            <td><img src="/Users/Echo9734/Desktop/MDI/FALL/LIS%20646/Web%20Design/A%20Story%20of%20Good%20Future_Picture.png" alt="Collage" width="400" height="400"></td>
+        </tr>
+    </table>
+    </div>
+    <h5>September 17th, 2022</h5>
+    <p>As we work to practice and expand our understand of design thinking, human-centered and life-centered design this semester, we will need to understand long-term thinking (“longtermism”) and what makes design distinct from other forms of thinking from a theoretical perspective, a lived experience perspective and a self-reflective perspective.</p>
+    <br>
+    <h4>First Nation Landscape Tour Experience Map</h4>
+    <div class="fakeimg" style="height:425px;">
+      <table>
+        <tr>
+            <td><img src="/Users/Echo9734/Desktop/MDI/FALL/LIS%20646/Web%20Design/MAP%201.png" alt="My Personal Perspective" width="400" height="400"></td>
+            <td><img src="/Users/Echo9734/Desktop/MDI/FALL/LIS%20646/Web%20Design/MAP%202.png" alt="My Personal Perspective" width="400" height="400"></td>
+        </tr>
+    </table>
+    </div>
+    <h5>October 7th, 2022</h5>
+    <p>Maps help us navigate the world, but have also been a means to knowledge and ownership, especially in a settler colonial context such as the United States. Surveying the land and then mapping it by Western conventions we may overlook as commonplace are practices that facilitated the seizure of land and the displacement of First Peoples.</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <h5>© 2022 By Xingjian Wang</h5>
+</div>
+
+</body>
+</html>
