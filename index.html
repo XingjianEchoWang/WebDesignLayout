@@ -2,7 +2,7 @@
 <html lang='en'>
 <title>Home Page</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 <style>
 * {
   box-sizing: border-box;
@@ -58,6 +58,7 @@ body {
   background-color: rgba(215, 215, 215, 0);
   width: 100%;
   padding: 20px;
+  flex: 70%;
 }
 
 .footer {
@@ -65,13 +66,12 @@ body {
   text-align: center;
   background: #ddd;
 }
-
-@media screen and (max-width: 700px) {
-  .row, .navbar {   
-    flex-direction: column;
-  }
+@media all and (max-width: 768px){
+	.box{
+		margin-top: 200px;
+		margin-bottom: 30px;
+	}
 }
-
 </style>
 </head>
 <body>
@@ -106,9 +106,10 @@ body {
     <div class="fakeimg" style="height:200px;"><p>She has been training excellent in design strategy and design communication through drawings and proficient software skills such as Adobe Photoshop, Illustrator, InDesign, and Premier pro, and six years of landscape architecture study made her have many knowledge of graphic design, unique aesthetics and high demand for details.</p>
       <p>In the past years, Xingjian realized that she is more prefer to build products that impact society from a rational and technological perspective, and she enjoys the types of interpersonal connection between humans and products. So she decided to try to transition herself into UIUX design.</p>
     </div>
-    <br>
-    <h2>Software Skills</h2>
-    <div class="fakeimg" style="height:220px;">
+    
+   
+    <div class="fakeimg box" style="height:220px;">
+		 <h2>Software Skills</h2>
       <ul>
       <li>Photoshop</li>
       <li>Illustrator</li>
