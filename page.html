@@ -2,7 +2,7 @@
 <html lang='en'>
 <title>Page2</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 <style>
 * {
   box-sizing: border-box;
@@ -65,10 +65,20 @@ body {
   text-align: center;
   background: #ddd;
 }
-
-@media screen and (max-width: 300px) {
+img{
+	width: 400px;
+	height: 400px;
+}
+@media screen and (max-width: 700px) {
   .row, .navbar {   
     flex-direction: column;
+  }
+  img{
+	  width: 100%;
+	  height: 300px;
+  }
+  td>img{
+	  height: 200px;
   }
 }
 </style>
@@ -96,10 +106,10 @@ body {
   <div class="main">
     <h2>INTER-HE 940 Capstone I</h2>
     <h4>A Good Story For Future</h4>
-    <div class="fakeimg" style="height:425px;">
+    <div class="fakeimg" >
       <table>
         <tr>
-            <td><img src="A Story of Good Future_Picture.png" alt="Collage" width="400" height="400"></td>
+            <td><img src="A Story of Good Future_Picture.png" alt="Collage" width="100%" ></td>
         </tr>
     </table>
     </div>
@@ -107,11 +117,11 @@ body {
     <p>As we work to practice and expand our understand of design thinking, human-centered and life-centered design this semester, we will need to understand long-term thinking (“longtermism”) and what makes design distinct from other forms of thinking from a theoretical perspective, a lived experience perspective and a self-reflective perspective.</p>
     <br>
     <h4>First Nation Landscape Tour Experience Map</h4>
-    <div class="fakeimg" style="height:425px;">
+    <div class="fakeimg" >
       <table>
         <tr>
-            <td><img src="MAP 1.png" alt="My Personal Perspective" width="400" height="400"></td>
-            <td><img src="MAP 2.png" alt="My Personal Perspective" width="400" height="400"></td>
+            <td><img src="MAP 1.png" alt="My Personal Perspective" width="100%" ></td>
+            <td><img src="MAP 2.png" alt="My Personal Perspective" width="100%" ></td>
         </tr>
     </table>
     </div>
